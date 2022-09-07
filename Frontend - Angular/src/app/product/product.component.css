@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+#block {
+  margin: 15px;
+  max-width: 1500px;
+}
+.mat-paginator {
+  display: flex;
+  justify-content: center;
+}
+mat-form-field {
+  width: 45%;
+  margin: 10px;
+}
+h1 {
+  margin: 10px;
+  font-size: 25px;
+}
+#mar {
+  margin-right: 24px;
+}

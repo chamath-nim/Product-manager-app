@@ -1,0 +1,17 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+#block {
+  margin: 15px;
+  max-width: 1500px;
+}
+.mat-paginator {
+  display: flex;
+  justify-content: center;
+}

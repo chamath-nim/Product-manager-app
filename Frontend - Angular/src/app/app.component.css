@@ -1,0 +1,11 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 20px;
+}

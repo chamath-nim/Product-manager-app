@@ -1,0 +1,28 @@
+{
+    "pkg4GData": "244 MB",
+    "pkgAnyData": "326 MB",
+    "pkgName": "P49",
+    "pkgNightData":"326 MB",
+    "pkgRental": "Rs.49",
+    "pkgTotalData": "896 MB",
+    "pkgValidity":"7 days"
+}
+{
+    "pkg4GData": "489 MB",
+    "pkgAnyData": "652 MB",
+    "pkgName": "P99",
+    "pkgNightData":"652 MB",
+    "pkgRental": "Rs.99",
+    "pkgTotalData": "1.75 GB",
+    "pkgValidity":"21 days"
+}
+{
+    "id": "2",
+    "pkg4GData": "1087 MB",
+    "pkgAnyData": "1413 MB",
+    "pkgName": "P199",
+    "pkgNightData":"1413 MB",
+    "pkgRental": "Rs.199",
+    "pkgTotalData": "3.82 GB",
+    "pkgValidity":"30 days"
+}

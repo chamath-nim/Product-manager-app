@@ -1,0 +1,59 @@
+<div>
+  <h1 mat-dialog-title>Edit Package</h1>
+  <div mat-dialog-content>
+    <form [formGroup]="productForm">
+      <mat-form-field appearance="fill">
+        <mat-label>Package Name</mat-label>
+        <input formControlName="pkgName" matInput />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Rental (LKR.)</mat-label>
+        <input formControlName="pkgRental" matInput type="number" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Total Data</mat-label>
+        <input formControlName="pkgTotalData" matInput />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Anytime Data Bundle</mat-label>
+        <input formControlName="pkgAnyData" matInput />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Night Time Data Bundle</mat-label>
+        <input formControlName="pkgNightData" matInput />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>4G Data Bundle</mat-label>
+        <input formControlName="pkg4GData" matInput />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Validity Time</mat-label>
+        <input formControlName="pkgValidity" matInput />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Created By</mat-label>
+        <input formControlName="createdBy" matInput />
+      </mat-form-field>
+    </form>
+  </div>
+  <div id="mar" mat-dialog-actions [align]="'end'">
+    <button mat-button mat-dialog-close mat-raised-button color="warn">
+      Close
+    </button>
+    <button
+      mat-button
+      mat-raised-button
+      color="primary"
+      (click)="editProduct()"
+    >
+      Save
+    </button>
+  </div>
+</div>
